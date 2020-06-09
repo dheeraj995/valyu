@@ -430,6 +430,7 @@ i {
 	font-size: 16px;
 	text-decoration: none;
 	font-weight: 600;
+	margin-right: 50px;
 }
 
 @media (max-width: 576px) {
@@ -1313,9 +1314,10 @@ label{
   z-index: 11;
   top: 0;
   right: 0;
-  background-color: #fff;
+  background-color: #eff2ff;
   overflow-x: hidden;
   padding-top: 120px;
+  transition: 0.5s;
 }
 
 .sidenav a {
@@ -1338,13 +1340,13 @@ label{
 	border: 1px solid #184AFF;
 	padding: 10px 15px;
 	margin: 40px 15px;
-	background-color: #184AFF0D;
+	background-color: #fff;
 }
 
 .sidenav .side_text h5 {
 	font-size: 17px;
 	text-align: center;
-	padding: 5px 15px;
+	padding: 5px 5px;
 }
 
 .sidenav .closebtn {
